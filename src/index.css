@@ -1,0 +1,169 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Premium Dark Portfolio Design System */
+
+@layer base {
+  :root {
+    /* Deep charcoal base - near black with subtle blue tint */
+    --background: 210 20% 5%;
+    --foreground: 210 15% 95%;
+
+    /* Glass morphism cards */
+    --glass-bg: 210 15% 8%;
+    --glass-border: 210 15% 15%;
+    --glass-hover: 210 15% 10%;
+    
+    /* Indigo to Teal gradient */
+    --gradient-from: 239 84% 67%;
+    --gradient-to: 173 80% 40%;
+    
+    /* Neon cyan accent */
+    --neon-accent: 180 100% 50%;
+    --neon-glow: 180 100% 50%;
+    
+    --card: 210 15% 8%;
+    --card-foreground: 210 15% 95%;
+
+    --popover: 210 15% 8%;
+    --popover-foreground: 210 15% 95%;
+
+    /* Primary = gradient colors */
+    --primary: 239 84% 67%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 210 15% 12%;
+    --secondary-foreground: 210 15% 95%;
+
+    --muted: 210 15% 12%;
+    --muted-foreground: 210 10% 60%;
+
+    --accent: 173 80% 40%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 210 15% 15%;
+    --input: 210 15% 12%;
+    --ring: 239 84% 67%;
+
+    --radius: 0.75rem;
+    
+    /* Custom design tokens */
+    --shadow-glow: 0 0 40px hsl(var(--neon-glow) / 0.15);
+    --shadow-glass: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', 'Inter', system-ui, sans-serif;
+    font-weight: 700;
+  }
+}
+
+@layer utilities {
+  /* Glass morphism utility */
+  .glass-card {
+    background: hsl(var(--glass-bg) / 0.4);
+    backdrop-filter: blur(12px);
+    border: 1px solid hsl(var(--glass-border) / 0.2);
+    box-shadow: var(--shadow-glass);
+  }
+  
+  .glass-card:hover {
+    background: hsl(var(--glass-hover) / 0.5);
+    border-color: hsl(var(--glass-border) / 0.3);
+  }
+  
+  /* Gradient text utility */
+  .gradient-text {
+    background: linear-gradient(135deg, hsl(var(--gradient-from)), hsl(var(--gradient-to)));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  /* Neon glow utility */
+  .neon-glow {
+    box-shadow: 0 0 20px hsl(var(--neon-accent) / 0.5),
+                0 0 40px hsl(var(--neon-accent) / 0.3);
+  }
+  
+  /* Smooth transitions */
+  .transition-smooth {
+    transition: var(--transition-smooth);
+  }
+}
+
+/* Animations */
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes gradient-shift {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+@keyframes pulse-glow {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+/* Respect prefers-reduced-motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}

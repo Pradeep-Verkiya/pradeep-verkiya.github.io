@@ -1,0 +1,17 @@
+{
+  "name": "Pradeep Kumar - Mobile App Developer",
+  "short_name": "Pradeep Kumar",
+  "description": "Mobile App Engineer specializing in React Native, Android, and Flutter",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b0f14",
+  "theme_color": "#6366f1",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ]
+}
