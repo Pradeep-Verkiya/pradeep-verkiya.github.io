@@ -1,0 +1,192 @@
+{
+    "personalInfo": {
+        "name": "Pradeep",
+        "roles": [
+            "Mobile App Developer",
+            "React Native Developer",
+            "Flutter Developer",
+            "Android Native Developer"
+        ],
+        "heroDescription": "I build high-performance mobile applications for iOS and Android.",
+        "aboutDescription": "Passionate mobile developer with expertise in cross-platform and native technologies.",
+        "workDescription": "Delivering seamless mobile experiences using the latest tech stacks.",
+        "socialLinks": [
+            {
+                "platform": "facebook",
+                "url": "https://facebook.com/",
+                "icon": ""
+            },
+            {
+                "platform": "twitter",
+                "url": "https://twitter.com/",
+                "icon": ""
+            },
+            {
+                "platform": "instagram",
+                "url": "https://www.instagram.com/",
+                "icon": ""
+            },
+            {
+                "platform": "linkedin",
+                "url": "https://www.linkedin.com/",
+                "icon": ""
+            },
+            {
+                "platform": "youtube",
+                "url": "https://youtube.com/",
+                "icon": ""
+            },
+            {
+                "platform": "github",
+                "url": "https://github.com/",
+                "icon": ""
+            }
+        ]
+    },
+    "about": {
+        "yearsExperience": "7+",
+        "projectsCount": "20+",
+        "description": "I specialize in building robust mobile applications using React Native, Flutter, and Android Native.",
+        "longDescription": "With a strong foundation in mobile development, I create apps that are not only functional but also provide a great user experience. My expertise spans across the entire mobile development lifecycle.",
+        "logos": [
+            {
+                "src": "assets/images/655682dff74f0dc9ca5a4e5e_company-logo-developer-x-webflow-template.svg",
+                "alt": "Company Logo"
+            },
+            {
+                "src": "assets/images/655682df2db8715a848d0741_venture-logo-developer-x-webflow-template.svg",
+                "alt": "Venture Logo"
+            },
+            {
+                "src": "assets/images/655682df839aa1093b52eb18_studio-logo-developer-x-webflow-template.svg",
+                "alt": "Studio Logo"
+            },
+            {
+                "src": "assets/images/655682df17fa4dba2950055b_business-logo-developer-x-webflow-template.svg",
+                "alt": "Business Logo"
+            }
+        ]
+    },
+    "skillsSection": {
+        "title": "My Skills",
+        "heading": "My extensive list of skills"
+    },
+    "projectsSection": {
+        "title": "My portfolio",
+        "heading": "Take a look at the latest projects I’ve done"
+    },
+    "testimonialsSection": {
+        "title": "Testimonials",
+        "heading": "What the clients say about my work"
+    },
+    "blogSection": {
+        "title": "Blog & Articles",
+        "heading": "Check out my latest articles and tutorials"
+    },
+    "skills": [
+        {
+            "name": "React Native",
+            "description": "Building cross-platform apps with native performance using React Native.",
+            "icon": "assets/images/623246243b0fd03d973d4743_mobile-app-development-icon-developer-webflow-ecommerce-template.svg"
+        },
+        {
+            "name": "Flutter",
+            "description": "Creating beautiful, natively compiled applications for mobile from a single codebase.",
+            "icon": "assets/images/623246243b0fd03d973d4743_mobile-app-development-icon-developer-webflow-ecommerce-template.svg"
+        },
+        {
+            "name": "Android Native",
+            "description": "Deep expertise in Android development using Kotlin and Java.",
+            "icon": "assets/images/623246243b0fd03d973d4743_mobile-app-development-icon-developer-webflow-ecommerce-template.svg"
+        },
+        {
+            "name": "iOS Development",
+            "description": "Experience with iOS app development concepts and deployment.",
+            "icon": "assets/images/623246243b0fd03d973d4743_mobile-app-development-icon-developer-webflow-ecommerce-template.svg"
+        },
+        {
+            "name": "Backend Development",
+            "description": "Building robust APIs and backend services to power mobile applications.",
+            "icon": "assets/images/623246243b0fd03d973d4743_mobile-app-development-icon-developer-webflow-ecommerce-template.svg"
+        }
+    ],
+    "projects": [
+        {
+            "title": "Agency Website Development for Dev X",
+            "tags": [
+                "React JS",
+                "Web Development"
+            ],
+            "image": "assets/images/6232276ecb324b5c3d0c3276_dev-thumbnail-image-developer-webflow-ecommerce-template.png",
+            "logo": "assets/images/623227559d5ce413c3045d1e_dev-project-logo-developer-webflow-ecommerce-template.png",
+            "link": "/portfolio/agency-website-development-for-dev-x"
+        },
+        {
+            "title": "Crypto Website Development for DeFi X",
+            "tags": [
+                "React JS",
+                "Web Development"
+            ],
+            "image": "assets/images/623227a7644f41349873cd60_defi-thumbnail-image-developer-webflow-ecommerce-template.png",
+            "logo": "assets/images/6232279759ed2980aff418c9_defi-project-logo-developer-webflow-ecommerce-template.png",
+            "link": "/portfolio/crypto-website-development-for-defi-x"
+        },
+        {
+            "title": "Trading Website Development for Dark X",
+            "tags": [
+                "React JS",
+                "Web Development"
+            ],
+            "image": "assets/images/623226da502a8939ea536581_dark-thumbnail-image-developer-webflow-ecommerce-template.png",
+            "logo": "assets/images/623226cfc08f430a864a33ca_dark-project-logo-developer-webflow-ecommerce-template.png",
+            "link": "/portfolio/trading-website-development-for-dark-x"
+        }
+    ],
+    "testimonials": [
+        {
+            "name": "Andy Smith",
+            "role": "VP of DevOps at Venture",
+            "quote": "“John did an amazing work with our web-app, everything he did to optimize our software help us to reduce our loading speed by 56%”",
+            "image": "assets/images/623207b88455ca2ac17ff73f_andy-smith-testimonial-photo-developer-webflow-ecommerce-template.jpg",
+            "logo": "assets/images/655682df9b7e461be82a4eaa_venture-logo-testimonial-developer-x-webflow-template.svg"
+        },
+        {
+            "name": "Jim Benson",
+            "role": "VP of DevOps at Company",
+            "quote": "“We’ve never had come this far without John’s great attention to detail and care for the final product”",
+            "image": "assets/images/623207b8584b1495452b0574_jim-benson-testimonial-photo-developer-webflow-ecommerce-template.jpg",
+            "logo": "assets/images/655682df67da3dd6a662ccdc_company-logo-testimonial-developer-x-webflow-template.svg"
+        },
+        {
+            "name": "Sophie Moore",
+            "role": "VP of DevOps at Studio",
+            "quote": "“I think John was essential to our product because he truly cared to deliver world-class work results”",
+            "image": "assets/images/623207b892e4d8f471abf10b_sophie-moore-testimonial-photo-developer-webflow-ecommerce-template.jpg",
+            "logo": "assets/images/655682dfb781bc3fcf1beba5_studio-logo-testimonial-developer-x-webflow-template.svg"
+        }
+    ],
+    "articles": [
+        {
+            "title": "The Best IDE’s and Code Editors for Developers in 2022",
+            "date": "March 18, 2022",
+            "category": "Articles",
+            "link": "/blog/the-best-ides-and-code-editors-for-developers-in-2022"
+        },
+        {
+            "title": "7 Great Web Development Languages to Learn this Year",
+            "date": "March 18, 2022",
+            "category": "Articles",
+            "link": "/blog/7-great-web-development-languages-to-learn-this-year"
+        },
+        {
+            "title": "How to Optimize your Website for Better Performance",
+            "date": "March 18, 2022",
+            "category": "Tutorials",
+            "link": "/blog/how-to-optimize-your-website-for-better-performance"
+        }
+    ],
+    "contact": {
+        "email": "contact@john.com",
+        "phone": "(414) 977 - 048"
+    }
+}
